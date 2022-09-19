@@ -14,16 +14,8 @@ button {
     background-color: #3882f6;
 }
 
-.header-container {
-    margin-left: 15%;
-    margin-right: 15%;
-    justify-content: center;
-}
 
-.header-bot .box-htext {
-    width: 50%;
-}
-.box-himg{
+.box-himg {
     margin-left: 18px;
 }
 
@@ -51,6 +43,11 @@ button {
     justify-content: space-around;
 }
 
+.header-bot .box-htext {
+    width: 50%;
+    margin-left: 8px;
+}
+
 .header-bot .main-text {
     font-size: 48px;
     color: #f9faf8;
@@ -60,6 +57,13 @@ button {
     font-size: 18px;
     color: #f9faf8;
 }
+
+.header-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+
 
 .himg {
     max-width: 90%;
@@ -82,13 +86,20 @@ button {
 
 .header-top .text .container {
     display: flex;
-    width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 3%;
+    align-items: center;
+    height: 54px;
+    width: 95%;
 }
 
 .header-top .text a {
     color: #E5E7EB;
     font-size: 18px;
     white-space: nowrap;
+}
+
+.logo {
+    max-width: 90%;
+    height: 50px;
 }
