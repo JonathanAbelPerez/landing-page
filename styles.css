@@ -15,9 +15,7 @@ button {
 }
 
 
-.box-himg {
-    margin-left: 18px;
-}
+
 
 .btn {
     color: #ffff;
@@ -36,6 +34,11 @@ button {
     padding: 0.75rem 1.5rem;
 }
 
+/* HEADER STYLES */
+
+.box-himg {
+    margin-left: 18px;
+}
 .header-bot {
     display: flex;
     margin-top: 10%;
@@ -101,5 +104,39 @@ button {
 
 .logo {
     max-width: 90%;
-    height: 50px;
+    height: 70px;
 }
+
+/* BODY STYLES */
+.body-container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.img-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1{
+    background-color: #ffff;
+}
+
+.section-2{
+    background-color: #e5e7eb;
+}
+
+.img-container{
+    
+}
+.title-box{
+    display: flex;
+    justify-content: center;
+}
+.title-body {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+/* FOOTER STYLES */
