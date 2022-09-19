@@ -116,6 +116,23 @@ button {
 .img-body{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2.5%;
+}
+
+.img-body img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.img-body p {
+    font-size: 18px;
+    color: #1f2937;
 }
 
 .section-1{
@@ -126,12 +143,10 @@ button {
     background-color: #e5e7eb;
 }
 
-.img-container{
-    
-}
 .title-box{
     display: flex;
     justify-content: center;
+    padding: 2.5%;
 }
 .title-body {
     font-size: 36px;
